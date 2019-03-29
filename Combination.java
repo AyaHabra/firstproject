@@ -10,10 +10,18 @@ public class Combination {
 	}
 	
 	
-	
+	public static long factoryR(long num)
+	{
+		if((num==1 )||(num==0))
+			return 1;
+		else 
+			return factory(num-1)*num;
+	}  
+
 	public static long combination(long n,long m)
 	{
 		return factory(n)/(factory(m)*factory(n-m));
 	}
+
 	
 	
