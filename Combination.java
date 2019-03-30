@@ -24,4 +24,6 @@ public class Combination {
 	}
 
 	
-	
+	System.out.println("It is a factory program");
+System.out.println("It a test program");
+}
